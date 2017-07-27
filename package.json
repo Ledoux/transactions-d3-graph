@@ -12,6 +12,9 @@
   },
   "author": "Erwan Ledoux",
   "dependencies": {
+    "d3": "^4.4.3",
+    "lodash.throttle": "^4.1.1",
+    "react": "15.5.4"
   },
   "description": "Little react uis based on react-portal-tip that helps to add a discover tutorial to your website",
   "devDependencies": {
@@ -23,7 +26,7 @@
   },
   "license": "MIT",
   "main": "lib/index.js",
-  "name": "transactions-react-help",
+  "name": "transactions-d3-graph",
   "scripts": {
     "compile": "babel --presets latest -d lib/ src/",
     "test": "ava -v",

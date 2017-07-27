@@ -1,5 +1,7 @@
-export {
+import GraphViz from './components/GraphViz'
+
+export { GraphViz }
+const transactionsD3Graph = {
+  GraphViz
 }
-const transactionsReduxReselector = {
-}
-export default transactionsReduxReselector
+export default transactionsD3Graph

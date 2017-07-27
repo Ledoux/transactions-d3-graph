@@ -1,0 +1,38 @@
+.graph-viz {
+  &__svg {
+    width: 100%;
+  }
+}
+
+.g-overlay,
+.g-node,
+.g-label {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.g-overlay {
+  fill: none;
+  pointer-events: all;
+}
+
+.g-node {
+  cursor: pointer;
+  fill: $dark-grey;
+  shape-rendering: crispEdges;
+  circle {
+    fill: $light-grey;
+    stroke: $medium-grey;
+    stroke-opacity: 0.5;
+  }
+  &--opinion {
+    &--negative {
+      fill: $red;
+    }
+    &--positive {
+      fill: $green;
+    }
+  }
+}
+
+.g-link {
+}
